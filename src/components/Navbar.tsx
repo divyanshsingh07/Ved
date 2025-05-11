@@ -3,11 +3,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { 
   Home,
-  User,
-  GraduationCap,
   Briefcase,
-  Code2,
-  Mail,
   Menu,
   X
 } from "lucide-react";
@@ -16,14 +12,7 @@ import { EducationDialog } from "./EducationDialog";
 import { SkillsDialog } from "./SkillsDialog";
 import { ContactDialog } from "./ContactDialog";
 
-// const menuItems = [
-//   { name: "Home", href: "/", icon: Home },
-//   { name: "Portfolio", href: "/portfolio", icon: Briefcase },
-//   { name: "About", href: "#about", icon: User },
-//   { name: "Education", href: "#education", icon: GraduationCap },
-//   { name: "Skills", href: "#skills", icon: Code2 },
-//   { name: "Contact", href: "#contact", icon: Mail },
-// ];
+
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
