@@ -33,7 +33,7 @@ export default function Footer() {
 </div>
         {/* Personal Line and Copyright */}
         <div className="flex flex-col items-center sm:items-end gap-1 text-gray-500 dark:text-zinc-400 text-xs">
-          <span>Developed with <span className="text-red-500">❤️</span> by Divyansh</span>
+          <span>Developed with <span className="text-red-500">❤️</span> by <a href="https://www.instagram.com/arshthakur07/" target="_blank" rel="noopener noreferrer" className="hover:text-sky-600 dark:hover:text-sky-400">Divyansh</a></span>
           <span>© 2025 Ved Prakash Tiwari. All rights reserved.</span>
         </div>
       </div>
