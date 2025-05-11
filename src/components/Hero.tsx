@@ -38,7 +38,7 @@ const socialLinks = [
 
 export function Hero() {
   return (
-    <section className="w-full h-screen bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-800 px-4 sm:px-6 lg:px-8 pt-24 transition-colors duration-300">
+    <section className="w-full h-screen bg-gradient-to-b from-white to-gray-50 dark:from-transparent dark:to-transparent px-4 sm:px-6 lg:px-8 pt-24 transition-colors duration-300">
       <ThemeToggle />
       <div className="max-w-7xl mx-auto h-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center h-full">
@@ -49,7 +49,7 @@ export function Hero() {
             transition={{ duration: 0.8 }}
             className="space-y-6 text-center lg:text-left"
           >
-  <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 dark:text-white mt-[70px] sm:mt-0 border-b-[1px] border-gray-500">
+      <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 dark:text-white mt-12 sm:mt-0">
   Ved Prakash Tiwari
 </h1>
             <p className="text-xl text-muted-foreground dark:text-gray-300">
