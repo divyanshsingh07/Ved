@@ -49,7 +49,7 @@ export function Hero() {
             transition={{ duration: 0.8 }}
             className="space-y-6 text-center lg:text-left"
           >
-      <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 dark:text-white mt-12 sm:mt-0">
+  <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900 dark:text-white mt-[70px] sm:mt-0 border-b-[1px] border-gray-500">
   Ved Prakash Tiwari
 </h1>
             <p className="text-xl text-muted-foreground dark:text-gray-300">
