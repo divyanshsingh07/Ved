@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Mode Colors */
+    --background: 0 0% 98%;                 /* Light Gray Background */
+    --foreground: 222 47% 11%;              /* Dark Blue Text */
+    --card: 0 0% 100%;                      /* White Cards */
+    --card-foreground: 222 47% 11%;         /* Dark Blue Text */
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 220 90% 56%;                 /* Blue Primary */
+    --primary-foreground: 0 0% 100%;        /* White on Primary */
+
+    --secondary: 240 27% 95%;               /* Light Muted Blue */
+    --secondary-foreground: 220 47% 20%;    /* Darker Blue Text */
+
+    --muted: 210 16% 93%;                   /* Subtle Muted Background */
+    --muted-foreground: 215 20% 50%;        /* Soft Gray-Blue Text */
+
+    --accent: 180 76% 45%;                  /* Teal Accent */
+    --accent-foreground: 0 0% 100%;         /* White on Accent */
+
+    --destructive: 0 84% 60%;               /* Red Error */
+    --destructive-foreground: 0 0% 100%;    /* White on Error */
+
+    --border: 210 16% 82%;                  /* Light Border */
+    --input: 210 16% 94%;                   /* Input Field Background */
+    --ring: 220 90% 56%;                    /* Blue Ring */
+
+    /* Chart Colors */
+    --chart-1: 10 80% 60%;                  /* Orange */
+    --chart-2: 140 70% 45%;                 /* Green */
+    --chart-3: 200 80% 50%;                 /* Blue */
+    --chart-4: 50 90% 60%;                  /* Yellow */
+    --chart-5: 300 60% 60%;                 /* Purple */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark Mode Colors */
+    --background: 222 47% 11%;              /* Very Dark Blue */
+    --foreground: 0 0% 100%;               /* White Text */
+    --card: 222 47% 13%;                    /* Dark Card Background */
+    --card-foreground: 0 0% 100%;           /* White Text */
+    --popover: 222 47% 13%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 220 90% 66%;                 /* Lighter Blue */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 20% 20%;               /* Muted Dark Blue */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 16% 24%;                   /* Muted Gray Background */
+    --muted-foreground: 210 16% 70%;        /* Muted Gray Text */
+
+    --accent: 180 76% 45%;                  /* Teal Accent */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;               /* Darker Red */
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 16% 30%;                  /* Dark Border */
+    --input: 210 16% 24%;
+    --ring: 220 90% 66%;
+
+    /* Chart Colors */
+    --chart-1: 10 80% 60%;
+    --chart-2: 140 70% 45%;
+    --chart-3: 200 80% 50%;
+    --chart-4: 50 90% 60%;
+    --chart-5: 300 60% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
