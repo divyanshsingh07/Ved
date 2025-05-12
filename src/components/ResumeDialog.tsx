@@ -67,7 +67,7 @@ export function ResumeDialog() {
                   <tr className="border-b border-gray-200 dark:border-gray-700">
                     <td className="py-2 px-4">Diploma in Mass Communication</td>
                     <td className="py-2 px-4">Indian Institute of Mass Communication (IIMC), New Delhi</td>
-                    <td className="py-2 px-4">2025 (Exp.)</td>
+                    <td className="py-2 px-4">2026 (Exp.)</td>
                     <td className="py-2 px-4">Ongoing</td>
                   </tr>
                   <tr className="border-b border-gray-200 dark:border-gray-700">
