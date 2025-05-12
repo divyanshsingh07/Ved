@@ -27,7 +27,7 @@ export function ResumeDialog() {
           <div className="flex flex-wrap gap-4 text-lg">
             <span>📍 New Delhi, India</span>
             <span>📞 +91-8795507492</span>
-            <span>📧 vedtiwari123@gmail.com</span>
+            <span>📧 vt8795507492@gmail.com</span>
             <span>🔗 LinkedIn: <a href="https://linkedin.com/in/ved-prakash-tiwari" target="_blank" rel="noopener noreferrer" className="text-sky-600 dark:text-sky-400 hover:underline">Ved Prakash Tiwari</a></span>
           </div>
 

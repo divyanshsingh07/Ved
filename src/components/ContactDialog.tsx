@@ -37,7 +37,7 @@ export function ContactDialog() {
                 href="mailto:ved8795@gmail.com" 
                 className="text-gray-700 hover:text-sky-600 dark:text-zinc-300 dark:hover:text-sky-400 transition-colors"
               >
-                ved8795@gmail.com
+                vt8795507492@gmail.com
               </a>
             </div>
           </div>
